@@ -1,0 +1,22 @@
+Project Title: Swim Lessons Database Management System
+Course Number: IST 659
+Course Title: Database Management
+
+Description:
+This project involves creating a relational database to manage swim lesson programs efficiently, ensuring secure participant tracking and progress monitoring.
+
+Contents:
+- swim_lessons_schema.sql: SQL file to create the database schema.
+- swim_lessons_queries.sql: Sample queries for data insertion and retrieval.
+- er_diagram.png: Entity-Relationship diagram showing database design.
+
+Software Requirements:
+- MySQL Workbench 8.0+
+- Any SQL client (alternative)
+
+How to Open/Review:
+- Open MySQL Workbench, connect to a database server, and execute `swim_lessons_schema.sql`.
+- Execute `swim_lessons_queries.sql` to interact with the database.
+
+Author:
+Sai Akash Addala
