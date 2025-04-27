@@ -3,20 +3,28 @@ Course Number: IST 659
 Course Title: Database Management
 
 Description:
-This project involves creating a relational database to manage swim lesson programs efficiently, ensuring secure participant tracking and progress monitoring.
+This project involved designing and implementing a relational database system to manage swim lesson programs effectively. The system focuses on organizing lesson plans, tracking participant progress, and ensuring data security.
+Additionally, a Power BI dashboard was developed to visualize key performance metrics related to swim lessons.
 
 Contents:
-- swim_lessons_schema.sql: SQL file to create the database schema.
-- swim_lessons_queries.sql: Sample queries for data insertion and retrieval.
-- er_diagram.png: Entity-Relationship diagram showing database design.
+- Create_SwimLessons_Tables.sql: SQL script to create necessary tables for the Swim Lessons database.
+- Insert_SwimLessons_Data.sql: SQL script to insert sample data into the tables.
+- Swim_Lessons_Dashboard.pbix: Power BI dashboard file for data visualization and analysis.
+- ER_Diagram_SwimLessons.png: Entity-Relationship diagram representing the database structure.
 
 Software Requirements:
-- MySQL Workbench 8.0+
-- Any SQL client (alternative)
+- MySQL Workbench 8.0 or compatible SQL database client
+- Power BI Desktop (latest version recommended)
 
 How to Open/Review:
-- Open MySQL Workbench, connect to a database server, and execute `swim_lessons_schema.sql`.
-- Execute `swim_lessons_queries.sql` to interact with the database.
+- Open `Create_SwimLessons_Tables.sql` and execute it in MySQL Workbench to create the database schema.
+- Run `Insert_SwimLessons_Data.sql` to populate the database with sample data.
+- Open `Swim_Lessons_Dashboard.pbix` using Power BI Desktop to interact with the swim lessons dashboard.
+- View `ER_Diagram_SwimLessons.png` for an overview of the database design.
+
+Notes:
+- Ensure a MySQL server instance is running to execute the SQL scripts.
+- Power BI Desktop must be installed to view or modify the dashboard file.
 
 Author:
 Sai Akash Addala
